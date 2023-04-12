@@ -32,7 +32,7 @@ const profile = require('./routes/api/profile')
 // })
 
 
-app.get("/job", (req, res) => {
+app.get("/", (req, res) => {
     res.send("<h1>" + process.env.SAMPLE_STRING +"</h1>")
 })
 
